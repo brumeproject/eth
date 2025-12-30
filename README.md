@@ -1,6 +1,6 @@
-# onchain
+# Ethereum
 
-Contracts and specifications for on-chain stuff
+Ethereum contracts and specifications
 
 ## Getting started
 
