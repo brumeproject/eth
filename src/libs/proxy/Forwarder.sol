@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import { Owned } from "../owning/Owned.sol";
+import { Owned } from "../ownable/Owned.sol";
 
 abstract contract Forwarder is Owned {
 

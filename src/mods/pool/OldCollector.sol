@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 import { Ownable } from "@openzeppelin/contracts/access/Ownable.sol";
-import { INonfungiblePositionManager } from "./Manager.sol";
+import { INonfungiblePositionManager } from "../../libs/uniswap/Manager.sol";
 
 contract OldCollector is Ownable {
 

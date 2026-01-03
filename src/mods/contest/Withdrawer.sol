@@ -7,7 +7,7 @@ import { ECDSA } from "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
 import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 // TODO: allow key rotation
-contract Withdrawer is Ownable {
+abstract contract Withdrawer is Ownable {
     
     Votes public immutable votes;
     

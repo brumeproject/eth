@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import { INonfungiblePositionManager } from "./Manager.sol";
-import { Timelocked } from "../timelock/Timelocker.sol";
+import { INonfungiblePositionManager } from "../../libs/uniswap/Manager.sol";
+import { Timelocked } from "../../libs/timelock/Timelocker.sol";
 
 contract Collector is Timelocked {
 

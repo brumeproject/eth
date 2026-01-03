@@ -2,8 +2,8 @@
 pragma solidity ^0.8.20;
 
 import { Ownable } from "@openzeppelin/contracts/access/Ownable.sol";
-import { INonfungiblePositionManager } from "./Manager.sol";
-import { Timelocked } from "../timelock/Timelocker.sol";
+import { INonfungiblePositionManager } from "../../libs/uniswap/Manager.sol";
+import { Timelocked } from "../../libs/timelock/Timelocked.sol";
 import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 abstract contract Poolable is Ownable {
